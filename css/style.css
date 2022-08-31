@@ -134,4 +134,106 @@ header nav a{
     
 } 
 
+.sd .container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sd .container a{
+    color: black;
+}
+
+.sd .container .search a{
+    width: 100%;
+    font-size: 24px;
+    display: block;
+    padding: 15px 15px;
+    margin: 15px;
+    box-shadow: 0px 0px 5px;
+}
+
+
+.sd .container h1{
+    margin-left: 30px;
+}
+
+.sd .container .search {
+    width: 45%;
+}
+
+.sd .container .date{
+    width: 45%;
+}
+
+.sd .container .date .first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sd .container .date .dateSelect{
+    width: 100%;
+    font-size: 24px;
+    padding: 15px 15px;
+    margin: 15px;
+    box-shadow: 0px 0px 5px;
+}
+
+.sd .container .date .info{
+    width: 100%;
+    font-size: 24px;
+    display: block;
+    padding: 15px 15px;
+    margin: 15px;
+    box-shadow: 0px 0px 5px;
+}
+
+.sd .container .date .info ul li{
+    list-style-type: none;
+}
+
+.sd .container .date .dateSelect a{
+    background-color: rgb(59, 204, 204);
+    font-size: 24px;
+    padding: 15px 15px;
+    display: inline-block;
+    margin:  5px 15px;
+    box-shadow: 0px 0px 5px;
+}
+
+@media only screen and  ( max-width:576px ) {
+    
+    .container{
+        margin: 0 10px;
+    }
+
+    .sd .container{
+        display: block;
+    }
+
+    .sd .container .search {
+        width: 92%;
+    }
+    
+    .sd .container .date{
+        width: 92%;
+    }
+
+    .sd .container .date .dateSelect a{
+        background-color: rgb(59, 204, 204);
+        font-size: 24px;
+        padding: 15px 15px;
+        display: inline-block;
+        margin:  5px 7px;
+        box-shadow: 0px 0px 5px;
+    }
+   
+
+
+    
+} 
+
+
 /* endmenu */
